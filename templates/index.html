@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Shipment Data Manager</title>
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='index.css') }}"
+        />
+    </head>
+    <body>
+        <h1>Shipment Data Manager</h1>
+        <p>Fill out the form below to add shipment data:</p>
+
+        <form action="/submit" method="post">
+            <label for="date">Date (DD/MM/YYYY):</label>
+            <input
+                type="text"
+                name="date"
+                id="date"
+                placeholder="e.g., 01/01/2025"
+                required
+            />
+
+            <label for="shipmentNumber">Shipment Number (optional):</label>
+            <input
+                type="text"
+                name="shipmentNumber"
+                id="shipmentNumber"
+                placeholder="e.g., 12345"
+            />
+
+            <label for="item">Item:</label>
+            <input
+                type="text"
+                name="item"
+                id="item"
+                placeholder="e.g., Widget"
+                required
+            />
+
+            <label for="unit">Unit of Measure (e.g., 'pz'):</label>
+            <input
+                type="text"
+                name="unit"
+                id="unit"
+                placeholder="e.g., pz"
+                required
+            />
+
+            <label for="movement">Movement Quantity:</label>
+            <input
+                type="text"
+                name="movement"
+                id="movement"
+                placeholder="e.g., 100"
+                required
+            />
+
+            <label for="sender">Sender:</label>
+            <input
+                type="text"
+                name="sender"
+                id="sender"
+                placeholder="e.g., Company A"
+                required
+            />
+
+            <label for="recipient">Recipient:</label>
+            <input
+                type="text"
+                name="recipient"
+                id="recipient"
+                placeholder="e.g., Company B"
+                required
+            />
+
+            <label for="movementType">Movement Type:</label>
+            <select name="movementType" id="movementType" required>
+                <option value="ingresso">Ingress</option>
+                <option value="uscita">Egress</option>
+            </select>
+
+            <label for="expiryDate">Expiry Date (DD/MM/YYYY, optional):</label>
+            <input
+                type="text"
+                name="expiryDate"
+                id="expiryDate"
+                placeholder="e.g., 31/12/2025"
+            />
+
+            <label for="donor">Donor (optional):</label>
+            <input type="text" name="donor" id="donor" />
+
+            <label for="bill">Bill (optional):</label>
+            <input type="text" name="bill" id="bill" />
+
+            <label for="notes">Notes (optional):</label>
+            <input type="text" name="notes" id="notes" />
+
+            <button type="submit">Add Shipment</button>
+        </form>
+    </body>
+</html>
