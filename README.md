@@ -90,7 +90,3 @@ This is a Flask web application for managing shipment data. Users can fill out a
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-### Summary
-
-This README file provides a comprehensive guide for setting up and running your Flask application. It covers prerequisites, installation, file structure, and usage instructions, ensuring that users can easily understand how to work with your project. Feel free to modify any sections according to your specific needs!
