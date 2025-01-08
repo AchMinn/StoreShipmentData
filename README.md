@@ -1,4 +1,3 @@
-Here's a README file that explains how to set up and run your Flask web application for managing shipment data. You can create a file named `README.md` and copy the following content into it.
 
 # Shipment Data Manager
 
