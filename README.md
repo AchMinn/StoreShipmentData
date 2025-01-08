@@ -1,6 +1,5 @@
 Here's a README file that explains how to set up and run your Flask web application for managing shipment data. You can create a file named `README.md` and copy the following content into it.
 
-```markdown
 # Shipment Data Manager
 
 This is a Flask web application for managing shipment data. Users can fill out a form to record shipment details, which are saved in a CSV file.
@@ -92,7 +91,6 @@ This is a Flask web application for managing shipment data. Users can fill out a
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-```
 
 ### Summary
 
