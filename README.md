@@ -3,6 +3,8 @@
 
 This is a Flask web application for managing shipment data. Users can fill out a form to record shipment details, which are saved in a CSV file.
 
+### You can remove the csv file it's useless
+
 ## Features
 
 - Input shipment data through a user-friendly web form.
