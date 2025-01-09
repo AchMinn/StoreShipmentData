@@ -16,7 +16,7 @@ This is a Flask web application for managing shipment data. Users can fill out a
 
 ## Setup Instructions
 
-1. **Clone the Repository** (if applicable):
+1. **Clone the Repository** :
    If you have a Git repository, clone it. Otherwise, create a directory for your project.
 
    ```bash
@@ -33,7 +33,7 @@ This is a Flask web application for managing shipment data. Users can fill out a
    ```
 
 3. **Install Dependencies**:
-   Install Flask and any other required libraries using the provided `requirements.txt`.
+   Install Flask and other required libraries using the provided `requirements.txt`.
 
    ```bash
    pip install -r requirements.txt
@@ -52,10 +52,9 @@ This is a Flask web application for managing shipment data. Users can fill out a
    └── requirements.txt      # Python dependencies
    ```
 
-   **Note**: Replace `app.py` with your actual Python file name if it's different.
 
 5. **Create the CSV File**:
-   The application will automatically create a CSV file named `dati_carico.csv` (or a unique version of it) in the project directory upon the first run.
+   The application will automatically create a CSV file named `dati_carico.csv` in the project directory upon the first run.
 
 6. **Run the Application**:
    Start the Flask development server by running:
@@ -68,13 +67,6 @@ This is a Flask web application for managing shipment data. Users can fill out a
 
 7. **Access the Application**:
    Open your web browser and navigate to `http://127.0.0.1:3214` to access the Shipment Data Manager.
-
-## File Descriptions
-
-- `app.py`: The main Python script containing the Flask application logic.
-- `templates/index.html`: The HTML template for the input form.
-- `static/index.css`: The CSS file for styling the web application.
-- `requirements.txt`: A file listing the required Python packages.
 
 ## Usage
 
@@ -90,7 +82,3 @@ This is a Flask web application for managing shipment data. Users can fill out a
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-### Summary
-
-This README file provides a comprehensive guide for setting up and running your Flask application. It covers prerequisites, installation, file structure, and usage instructions, ensuring that users can easily understand how to work with your project. Feel free to modify any sections according to your specific needs!
